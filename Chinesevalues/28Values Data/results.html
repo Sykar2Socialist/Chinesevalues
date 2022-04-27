@@ -296,42 +296,53 @@ stats"></a></div></noscript>
         ctx.fillStyle="#9c27b0"
         ctx.fillRect(682-5.6*progress, 544, 5.6*progress-2, 72)
 	ctx.fillStyle="#111111"
-        ctx.fillRect(120, , 5.6*central-2, 72)
+        ctx.fillRect(120, 664, 5.6*central-2, 72)
         ctx.fillStyle="#111111"
-        ctx.fillRect(682-5.6*federal, , 5.6*federal-2, 72)
+        ctx.fillRect(682-5.6*federal, 664, 5.6*federal-2, 72)
 	ctx.fillStyle="#111111"
-        ctx.fillRect(120, , 5.6*secular-2, 72)
+        ctx.fillRect(120, 784, 5.6*secular-2, 72)
         ctx.fillStyle="#111111"
-        ctx.fillRect(682-5.6*theocrat, , 5.6*theocrat-2, 72)
+        ctx.fillRect(682-5.6*theocrat, 784, 5.6*theocrat-2, 72)
 	ctx.fillStyle="#111111"
-        ctx.fillRect(120, , 5.6*eco-2, 72)
+        ctx.fillRect(120, 904, 5.6*eco-2, 72)
         ctx.fillStyle="#111111"
-        ctx.fillRect(682-5.6*indust, , 5.6*indust-2, 72)
+        ctx.fillRect(682-5.6*indust, 904, 5.6*indust-2, 72)
 	ctx.fillStyle="#111111"
-        ctx.fillRect(120, , 5.6*prim-2, 72)
+        ctx.fillRect(120, 1024, 5.6*prim-2, 72)
         ctx.fillStyle="#111111"
-        ctx.fillRect(682-5.6*transh, , 5.6*transh-2, 72)
+        ctx.fillRect(682-5.6*transh, 1024, 5.6*transh-2, 72)
 	ctx.fillStyle="#111111"
-        ctx.fillRect(120, , 5.6*red-2, 72)
+        ctx.fillRect(120, 1144, 5.6*red-2, 72)
         ctx.fillStyle="#111111"
-        ctx.fillRect(682-5.6*rebel, , 5.6*rebel-2, 72)
+        ctx.fillRect(682-5.6*rebel, 1144, 5.6*rebel-2, 72)
         ctx.fillStyle="#222222"
         ctx.font="700 80px Montserrat"
         ctx.textAlign="left"
-        ctx.fillText("8values", 20, 90)
+        ctx.fillText("Chinesevalues", 20, 90)
         ctx.font="50px Montserrat"
         ctx.fillText(ideology, 20, 140)
 
         ctx.textAlign="left"
         if (equality  > 30) {ctx.fillText(equality + "%", 130, 237.5)}
-        if (might     > 30) {ctx.fillText(might + "%", 130, 357.5)}
+        if (unity     > 30) {ctx.fillText(unity + "%", 130, 357.5)}
         if (liberty   > 30) {ctx.fillText(liberty + "%", 130, 477.5)}
         if (tradition > 30) {ctx.fillText(tradition + "%", 130, 597.5)}
+	if ( > 30) {ctx.fillText( + "%", 130, )}
+	if ( > 30) {ctx.fillText( + "%", 130, )}
+	if ( > 30) {ctx.fillText( + "%", 130, )}
+	if ( > 30) {ctx.fillText( + "%", 130, )}
+	if ( > 30) {ctx.fillText( + "%", 130, )}
         ctx.textAlign="right"
         if (wealth    > 30) {ctx.fillText(wealth + "%", 670, 237.5)}
         if (peace     > 30) {ctx.fillText(peace + "%", 670, 357.5)}
         if (authority > 30) {ctx.fillText(authority + "%", 670, 477.5)}
         if (progress  > 30) {ctx.fillText(progress + "%", 670, 597.5)}
+	if (  > 30) {ctx.fillText( + "%", 670, )}
+	if (  > 30) {ctx.fillText( + "%", 670, )}
+	if (  > 30) {ctx.fillText( + "%", 670, )}
+	if (  > 30) {ctx.fillText( + "%", 670, )}
+	if (  > 30) {ctx.fillText( + "%", 670, )}
+
 
         ctx.font="300 30px Montserrat"
         ctx.fillText("8values.github.io", 780, 60)
