@@ -138,6 +138,8 @@ div.axis_name {
     cursor: pointer;
 }
 .button:hover, .button:focus { background: #1687e0; }
+.further { background: #1b5e20; }
+.further:hover, .stronglyAgree:focus { background: #154a19; }
 .stronglyAgree { background: #1b5e20; }
 .stronglyAgree:hover, .stronglyAgree:focus { background: #154a19; }
 .agree { background: #4caf50; }
@@ -148,6 +150,8 @@ div.axis_name {
 .disagree:hover, .disagree:focus { background: #d6271a; }
 .stronglyDisagree { background: #b71c1c; }
 .stronglyDisagree:hover, .stronglyDisagree:focus { background: #a00e0e; }
+.reeee { background: #b71c1c; }
+.reeee:hover, .stronglyDisagree:focus { background: #a00e0e; }
 
 .small_button, .small_button_off {
     background-color: #333;
