@@ -150,8 +150,8 @@ div.axis_name {
 .disagree:hover, .disagree:focus { background: #d6271a; }
 .stronglyDisagree { background: #b71c1c; }
 .stronglyDisagree:hover, .stronglyDisagree:focus { background: #a00e0e; }
-.reeee { background: #b71c1c; }
-.reeee:hover, .stronglyDisagree:focus { background: #a00e0e; }
+.reeeee { background: #b71c1c; }
+.reeeee:hover, .stronglyDisagree:focus { background: #a00e0e; }
 
 .small_button, .small_button_off {
     background-color: #333;
@@ -249,12 +249,12 @@ div.authority {
     text-align: right;
     border-left-style: solid;
 }
-div.peace {
+div.devide {
     background-color: #03a9f4;
     text-align: right;
     border-left-style: solid;
 }
-div.might {
+div.unity {
     background-color: #ff9800;
     text-align: left;
     border-right-style: solid;
