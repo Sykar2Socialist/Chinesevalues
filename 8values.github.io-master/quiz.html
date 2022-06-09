@@ -1,7 +1,7 @@
 <head>
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
 <link href='style.css' rel='stylesheet' type='text/css'>
-<title>8values Quiz</title>
+<title>Chinesevalues Quiz</title>
 <link rel="icon" type="x-icon" href="icon.png">
 <link rel="shortcut icon" type="x-icon" href="icon.png">
 <meta charset="utf-8">
@@ -17,7 +17,7 @@
 <script type="application/javascript"
         src="questions.js">
 </script>
-<h1>8values</h1>
+<h1>Chinesevalues</h1>
 <hr>
 <h2 style="text-align:center;" id="question-number">Loading...</h2>
 <p class="question" id="question-text"></p>
@@ -51,14 +51,14 @@ stats"></a></div></noscript>
     var max_econ, max_dipl, max_govt, max_scty; // Max possible scores
     max_econ = max_dipl = max_govt = max_scty = 0;
     let econ_array = new Array(questions.length);
-    let dipl_array = new Array(questions.length);
+    let nati_array = new Array(questions.length);
     let govt_array = new Array(questions.length);
     let scty_array = new Array(questions.length);
     var qn = 0; // Question number
     init_question();
     for (var i = 0; i < questions.length; i++) {
         max_econ += Math.abs(questions[i].effect.econ)
-        max_dipl += Math.abs(questions[i].effect.dipl)
+        max_dipl += Math.abs(questions[i].effect.nati)
         max_govt += Math.abs(questions[i].effect.govt)
         max_scty += Math.abs(questions[i].effect.scty)
     }
@@ -77,7 +77,7 @@ stats"></a></div></noscript>
 
     function next_question(mult) {
         econ_array[qn] = mult*questions[qn].effect.econ
-        dipl_array[qn] = mult*questions[qn].effect.dipl
+        nati_array[qn] = mult*questions[qn].effect.nati
         govt_array[qn] = mult*questions[qn].effect.govt
         scty_array[qn] = mult*questions[qn].effect.scty
         qn++;
@@ -102,12 +102,12 @@ stats"></a></div></noscript>
 
     function results() {
         let final_econ = econ_array.reduce((a, b) => a + b, 0)
-        let final_dipl = dipl_array.reduce((a, b) => a + b, 0)
+        let final_dipl = nati_array.reduce((a, b) => a + b, 0)
         let final_govt = govt_array.reduce((a, b) => a + b, 0)
         let final_scty = scty_array.reduce((a, b) => a + b, 0)
         location.href = `results.html`
             + `?e=${calc_score(final_econ,max_econ)}`
-            + `&d=${calc_score(final_dipl,max_dipl)}`
+            + `&n=${calc_score(final_dipl,max_nati)}`
             + `&g=${calc_score(final_govt,max_govt)}`
             + `&s=${calc_score(final_scty,max_scty)}`
     }
