@@ -1,6 +1,6 @@
 questions = [
     {
-        "question": "Oppression by corporations is more of a concern than oppression by governments.",
+        "question": "Oppression by corporations is more of a concern than oppression by CCP.",
         "effect": {
             "econ": 10,
             "nati": 0,
@@ -45,7 +45,7 @@ questions = [
         }
     },
     {
-        "question": "Tariffs on international trade are important to encourage local production.",
+        "question": "We should follow Xi's policies.(This Question won't count Han-nationalism in.)",
         "effect": {
             "econ": 5,
             "nati": 0,
@@ -54,7 +54,7 @@ questions = [
         }
     },
     {
-        "question": "From each according to his ability, to each according to his needs.",
+        "question": "We should bring back people's commune",
         "effect": {
             "econ": 10,
             "nati": 0,
