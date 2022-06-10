@@ -29,15 +29,15 @@
 <h2>Diplomatic Axis: <span class="weight-300" id="diplomatic-label"></span></h2>
 <div class="axis">
     <img id="img-might" src="value_images/nation.svg" height="128pt"/>
-    <div class="bar might" id="bar-might"><div class="text-wrapper" id="might"></div></div>
-    <div class="bar peace" id="bar-peace"><div class="text-wrapper" id="peace"></div></div>
+    <div class="bar sinophile" id="bar-sinophile"><div class="text-wrapper" id="sinophile"></div></div>
+    <div class="bar sinophobe" id="bar-sinophobe"><div class="text-wrapper" id="sinophobe"></div></div>
     <img id="img-peace" src="value_images/globe.svg" height="128pt"/>
 </div>
 <h2>Civil Axis: <span class="weight-300" id="state-label"></span></h2>
 <div class="axis">
     <img id="img-liberty" src="value_images/liberty.svg" height="128pt"/>
-    <div class="bar liberty" id="bar-liberty"><div class="text-wrapper" id="liberty"></div></div>
-    <div class="bar authority" id="bar-authority"><div class="text-wrapper" id="authority"></div></div>
+    <div class="bar rebel" id="bar-rebel"><div class="text-wrapper" id="rebel"></div></div>
+    <div class="bar red" id="bar-red"><div class="text-wrapper" id="red"></div></div>
     <img id="img-authority" src="value_images/authority.svg" height="128pt"/>
 </div>
 <h2>Societal Axis: <span class="weight-300" id="society-label"></span></h2>
@@ -113,22 +113,22 @@ stats"></a></div></noscript>
     rebel     = getQueryVariable("g")
     progress  = getQueryVariable("s")
     wealth    = (100 - equality).toFixed(1)
-    sinophile = (100 - peace   ).toFixed(1)
-    red       = (100 - liberty ).toFixed(1)
+    sinophile = (100 - sinophobe ).toFixed(1)
+    red       = (100 - rebel ).toFixed(1)
     tradition = (100 - progress).toFixed(1)
 
     setBarValue("equality", equality)
     setBarValue("wealth", wealth)
-    setBarValue("peace", peace)
-    setBarValue("might", might)
-    setBarValue("liberty", liberty)
-    setBarValue("authority", authority)
+    setBarValue("peace", sinophobe)
+    setBarValue("might", sinophile)
+    setBarValue("liberty", rebel)
+    setBarValue("authority", red)
     setBarValue("progress", progress)
     setBarValue("tradition", tradition)
 
     document.getElementById("economic-label").innerHTML = setLabel(equality, econArray)
-    document.getElementById("diplomatic-label").innerHTML = setLabel(peace, natiArray)
-    document.getElementById("state-label").innerHTML = setLabel(liberty, govtArray)
+    document.getElementById("nation-label").innerHTML = setLabel(sinophobe, natiArray)
+    document.getElementById("state-label").innerHTML = setLabel(rebel, govtArray)
     document.getElementById("society-label").innerHTML = setLabel(progress, sctyArray)
 
     ideology = ""
@@ -136,8 +136,8 @@ stats"></a></div></noscript>
     for (var i = 0; i < ideologies.length; i++) {
         dist = 0
         dist += Math.pow(Math.abs(ideologies[i].stats.econ - equality), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.govt - liberty), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.dipl - peace), 1.73856063)
+        dist += Math.pow(Math.abs(ideologies[i].stats.govt - rebel), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.nat - sinophobe), 1.73856063)
         dist += Math.pow(Math.abs(ideologies[i].stats.scty - progress), 1.73856063)
         if (dist < ideodist) {
             ideology = ideologies[i].name
