@@ -287,18 +287,9 @@ questions = [
             "govt": 10,
             "scty": 0
         }
-    },
+    }
     {
-        "question": "Environmental regulations are essential.",
-        "effect": {
-            "econ": 5,
-            "nati": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "A better world will come from automation, science, and technology.",
+        "question": "We should change words to be inclusive. ",
         "effect": {
             "econ": 0,
             "nati": 0,
@@ -307,16 +298,16 @@ questions = [
         }
     },
     {
-        "question": "Children should be educated in religious or traditional values.",
+        "question": "People shouldn't have education, only nobility.",
         "effect": {
-            "econ": 0,
+            "econ": -5,
             "nati": 0,
-            "govt": -5,
+            "govt": 0,
             "scty": -10
         }
     },
     {
-        "question": "Traditions are of no value on their own.",
+        "question": "Chinese Traditions are of no value on their own.",
         "effect": {
             "econ": 0,
             "nati": 0,
@@ -325,55 +316,37 @@ questions = [
         }
     },
     {
-        "question": "Religion should play a role in government.",
+        "question": "Taoism or Chinese folk religion should play a role in government.",
         "effect": {
             "econ": 0,
+            "nati": 0,
+            "govt": 5,
+            "scty": -10
+        }
+    },
+    {
+        "question": "Statues of Saints should be replaced to Chairman Mao's face."
+        "effect": {
+            "econ": 5,
+            "nati": 0,
+            "govt": -10,
+            "scty": 10
+        }
+    },
+    {
+        "question": "Society was better before Xinhai Revolution than it is now.",
+        "effect": {
+            "econ": -5,
             "nati": 0,
             "govt": -10,
             "scty": -10
         }
     },
     {
-        "question": "Churches should be taxed the same way other institutions are taxed.",
-        "effect": {
-            "econ": 5,
-            "nati": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Climate change is currently one of the greatest threats to our way of life.",
+        "question": "It is important that we maintain the traditional cultures of our past.",
         "effect": {
             "econ": 0,
-            "nati": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "It is important that we work as a united world to combat climate change.",
-        "effect": {
-            "econ": 0,
-            "nati": 10,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Society was better many years ago than it is now.",
-        "effect": {
-            "econ": 0,
-            "nati": 0,
-            "govt": 0,
-            "scty": -10
-        }
-    },
-    {
-        "question": "It is important that we maintain the traditions of our past.",
-        "effect": {
-            "econ": 0,
-            "nati": 0,
+            "nati": -10,
             "govt": 0,
             "scty": -10
         }
