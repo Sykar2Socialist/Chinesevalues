@@ -199,7 +199,7 @@ questions = [
         }
     },
     {
-        "question": "It is very important to maintain law and order.",
+        "question": "It is very important to maintain Rule of CCP.",
         "effect": {
             "econ": 0,
             "nati": -5,
@@ -208,7 +208,7 @@ questions = [
         }
     },
     {
-        "question": "The general populace makes poor decisions.",
+        "question": "The general populace is too bad to vote.",
         "effect": {
             "econ": 0,
             "nati": 0,
@@ -217,7 +217,7 @@ questions = [
         }
     },
     {
-        "question": "Physician-assisted suicide should be legal.",
+        "question": "We won't forget Tiananmen Square Massacre.",
         "effect": {
             "econ": 0,
             "nati": 0,
@@ -226,7 +226,7 @@ questions = [
         }
     },
     {
-        "question": "The sacrifice of some civil liberties is necessary to protect us from acts of terrorism.",
+        "question": "The sacrifice of some civil liberties is necessary to protect Communist party of China.",
         "effect": {
             "econ": 0,
             "nati": 0,
@@ -235,7 +235,7 @@ questions = [
         }
     },
     {
-        "question": "Government surveillance is necessary in the modern world.",
+        "question": "Massive surveillance is necessary in China.",
         "effect": {
             "econ": 0,
             "nati": 0,
@@ -244,7 +244,7 @@ questions = [
         }
     },
     {
-        "question": "The very existence of the state is a threat to our liberty.",
+        "question": "At least millions of people died from CCP.",
         "effect": {
             "econ": 0,
             "nati": 0,
@@ -253,16 +253,16 @@ questions = [
         }
     },
     {
-        "question": "Regardless of political opinions, it is important to side with your country.",
+        "question": "The Chinese Communist party lead us liberated.",
         "effect": {
             "econ": 0,
             "nati": -10,
             "govt": -10,
-            "scty": -5
+            "scty": 0
         }
     },
     {
-        "question": "All authority should be questioned.",
+        "question": "Minorities in China are stuck in Hellhole.",
         "effect": {
             "econ": 0,
             "nati": 0,
@@ -271,7 +271,7 @@ questions = [
         }
     },
     {
-        "question": "A hierarchical state is best.",
+        "question": "CCP brought economic development, this is based. ",
         "effect": {
             "econ": 0,
             "nati": 0,
@@ -280,25 +280,7 @@ questions = [
         }
     },
     {
-        "question": "It is important that the government follows the majority opinion, even if it is wrong.",
-        "effect": {
-            "econ": 0,
-            "nati": 0,
-            "govt": 10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "The stronger the leadership, the better.",
-        "effect": {
-            "econ": 0,
-            "nati": -10,
-            "govt": -10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Democracy is more than a decision-making process.",
+        "question": "Democracy or Authoritarian Democracy is better than People's Democracy in China.",
         "effect": {
             "econ": 0,
             "nati": 0,
