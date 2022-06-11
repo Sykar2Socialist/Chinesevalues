@@ -175,7 +175,7 @@ questions = [
         "effect": {
             "econ": 0,
             "nati": -10,
-            "govt": 0,
+            "govt": 5,
             "scty": 0
         }
     },
@@ -343,30 +343,12 @@ questions = [
         }
     },
     {
-        "question": "It is important that we maintain the traditional cultures of our past.",
+        "question": "It is important that we maintain the traditional cultures of our history.",
         "effect": {
             "econ": 0,
             "nati": -10,
             "govt": 0,
             "scty": -10
-        }
-    },
-    {
-        "question": "It is important that we think in the long term, beyond our lifespans.",
-        "effect": {
-            "econ": 0,
-            "nati": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Reason is more important than maintaining our culture.",
-        "effect": {
-            "econ": 0,
-            "nati": 0,
-            "govt": 0,
-            "scty": 10
         }
     },
     {
@@ -388,12 +370,12 @@ questions = [
         }
     },
     {
-        "question": "No cultures are superior to others.",
+        "question": "Han Culture are superior to others.",
         "effect": {
             "econ": 0,
-            "nati": 10,
-            "govt": 5,
-            "scty": 10
+            "nati": -10,
+            "govt": 0,
+            "scty": 0
         }
     },
     {
@@ -401,7 +383,7 @@ questions = [
         "effect": {
             "econ": 0,
             "nati": 0,
-            "govt": -5,
+            "govt": 0,
             "scty": -10
         }
     },
