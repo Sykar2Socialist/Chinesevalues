@@ -45,7 +45,7 @@ questions = [
         }
     },
     {
-        "question": "We should follow Xi's policies.(This Question won't count Han-nationalism in.)",
+        "question": "China will good when 2050 by CCP",
         "effect": {
             "econ": 5,
             "nati": 0,
@@ -144,11 +144,47 @@ questions = [
         }
     },
     {
+        "question": "Japan should colonize China.",
+        "effect": {
+            "econ": 0,
+            "nati": 10,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "America should manage China.",
+        "effect": {
+            "econ": 0,
+            "nati": 10,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Nanking Massacre is not exist.",
+        "effect": {
+            "econ": 0,
+            "nati": 10,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
         "question": "It is more important to retain peaceful relations than to further our Han-Supremacy.",
         "effect": {
             "econ": 0,
             "nati": 10,
             "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Free Taiwan, Xinjiang, Tibet, Hong Kong.",
+        "effect": {
+            "econ": 0,
+            "nati": -5,
+            "govt": 10,
             "scty": 0
         }
     },
