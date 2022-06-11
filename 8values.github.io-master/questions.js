@@ -9,12 +9,12 @@ questions = [
         }
     },
     {
-        "question": "It is necessary for the government to intervene in the economy to protect consumers.",
+        "question": "It is necessary for the government to revive Han-nationalism.",
         "effect": {
-            "econ": 10,
-            "nati": 0,
+            "econ": 0,
+            "nati": -10,
             "govt": 0,
-            "scty": 0
+            "scty": -5
         }
     },
     {
@@ -22,7 +22,7 @@ questions = [
         "effect": {
             "econ": -10,
             "nati": 0,
-            "govt": 0,
+            "govt": 5,
             "scty": 0
         }
     },
@@ -31,7 +31,7 @@ questions = [
         "effect": {
             "econ": -10,
             "nati": 0,
-            "govt": 0,
+            "govt": -5,
             "scty": 0
         }
     },
@@ -58,12 +58,12 @@ questions = [
         "effect": {
             "econ": 10,
             "nati": 0,
-            "govt": 0,
+            "govt": -5,
             "scty": 0
         }
     },
     {
-        "question": "It would be best if social programs were abolished in favor of private charity.",
+        "question": "It would be best if free healthcare  were abolished.",
         "effect": {
             "econ": -10,
             "nati": 0,
@@ -99,34 +99,25 @@ questions = [
         }
     },
     {
-        "question": "Government intervention is a threat to the economy.",
-        "effect": {
-            "econ": -10,
-            "nati": 0,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Those with a greater ability to pay should receive better healthcare.",
-        "effect": {
-            "econ": -10,
-            "nati": 0,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
         "question": "Quality education is a right of all people.",
         "effect": {
             "econ": 10,
             "nati": 0,
             "govt": 0,
-            "scty": 5
+            "scty": 0
         }
     },
     {
-        "question": "The means of production should belong to the workers who use them.",
+        "question": "Hengshui education is people's basic rights",
+        "effect": {
+            "econ": -5,
+            "nati": 0,
+            "govt": -5,
+            "scty": -10
+        }
+    },
+    {
+        "question": "The 996 should banned for the workers.",
         "effect": {
             "econ": 10,
             "nati": 0,
@@ -135,43 +126,16 @@ questions = [
         }
     },
     {
-        "question": "The United Nations should be abolished.",
+        "question": "It is important to maintain Chinese sovereignty.",
         "effect": {
             "econ": 0,
             "nati": -10,
-            "govt": -5,
+            "govt": 0,
             "scty": 0
         }
     },
     {
-        "question": "Military action by our nation is often necessary to protect it.",
-        "effect": {
-            "econ": 0,
-            "nati": -10,
-            "govt": -10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "I support regional unions, such as the European Union.",
-        "effect": {
-            "econ": -5,
-            "nati": 10,
-            "govt": 10,
-            "scty": 5
-        }
-    },
-    {
-        "question": "It is important to maintain our national sovereignty.",
-        "effect": {
-            "econ": 0,
-            "nati": -10,
-            "govt": -5,
-            "scty": 0
-        }
-    },
-    {
-        "question": "A united world government would be beneficial to mankind.",
+        "question": "Other Nation's government would let China better.",
         "effect": {
             "econ": 0,
             "nati": 10,
@@ -180,7 +144,7 @@ questions = [
         }
     },
     {
-        "question": "It is more important to retain peaceful relations than to further our strength.",
+        "question": "It is more important to retain peaceful relations than to further our Han-Supremacy.",
         "effect": {
             "econ": 0,
             "nati": 10,
@@ -189,7 +153,7 @@ questions = [
         }
     },
     {
-        "question": "Wars do not need to be justified to other countries.",
+        "question": "Taiwan, Xinjiang, Tibet, Hong Kong is a part of PRC.",
         "effect": {
             "econ": 0,
             "nati": -10,
@@ -198,25 +162,16 @@ questions = [
         }
     },
     {
-        "question": "Military spending is a waste of money.",
+        "question": "Taiwan, Xinjiang, Tibet, Hong Kong is a part of ROC ",
         "effect": {
             "econ": 0,
-            "nati": 10,
+            "nati": -10,
             "govt": 10,
             "scty": 0
         }
     },
     {
-        "question": "International aid is a waste of money.",
-        "effect": {
-            "econ": -5,
-            "nati": -10,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "My nation is great.",
+        "question": "Wolf warrior diplomacy is not a waste of money.",
         "effect": {
             "econ": 0,
             "nati": -10,
@@ -225,47 +180,21 @@ questions = [
         }
     },
     {
-        "question": "Research should be conducted on an international scale.",
-        "effect": {
-            "econ": 0,
-            "nati": 10,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Governments should be accountable to the international community.",
-        "effect": {
-            "econ": 0,
-            "nati": 10,
-            "govt": 5,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Even when protesting an authoritarian government, violence is not acceptable.",
-        "effect": {
-            "econ": 0,
-            "nati": 5,
-            "govt": -5,
-            "scty": 0
-        }
-    },
-    {
-        "question": "My religious values should be spread as much as possible.",
-        "effect": {
-            "econ": 0,
-            "nati": -5,
-            "govt": -10,
-            "scty": -10
-        }
-    },
-    {
-        "question": "Our nation's values should be spread as much as possible.",
+        "question": "Han nation is great.",
         "effect": {
             "econ": 0,
             "nati": -10,
-            "govt": -5,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    
+    {
+        "question": "Han nation's values should be spread as much as possible.",
+        "effect": {
+            "econ": 0,
+            "nati": -10,
+            "govt": 0,
             "scty": 0
         }
     },
