@@ -81,12 +81,12 @@ questions = [
         }
     },
     {
-        "question": "Inheritance is a legitimate form of wealth.",
+        "question": "Land is a legitimate form of wealth, there's no force removed.",
         "effect": {
             "econ": -10,
             "nati": 0,
             "govt": 0,
-            "scty": -5
+            "scty": 0
         }
     },
     {
@@ -108,7 +108,7 @@ questions = [
         }
     },
     {
-        "question": "Hengshui education is people's basic rights",
+        "question": "Hengshui model of education is people's basic rights",
         "effect": {
             "econ": -5,
             "nati": 0,
@@ -227,6 +227,15 @@ questions = [
     },
     {
         "question": "The sacrifice of some civil liberties is necessary to protect Communist party of China.",
+        "effect": {
+            "econ": 0,
+            "nati": 0,
+            "govt": -10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "People's Democracy of CCP is really Democracy.",
         "effect": {
             "econ": 0,
             "nati": 0,
@@ -397,30 +406,12 @@ questions = [
         }
     },
     {
-        "question": "Abortion should be prohibited in most or all cases.",
+        "question": "I'm a woman, so I shouldn't work and my boyfriend will do it.",
         "effect": {
             "econ": 0,
-            "nati": 0,
-            "govt": -10,
-            "scty": -10
-        }
-    },
-    {
-        "question": "Gun ownership should be prohibited for those without a valid reason.",
-        "effect": {
-            "econ": 0,
-            "nati": 0,
-            "govt": -10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "I support single-payer, universal healthcare.",
-        "effect": {
-            "econ": 10,
             "nati": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 10
         }
     },
     {
@@ -433,7 +424,16 @@ questions = [
         }
     },
     {
-        "question": "Maintaining family values is essential.",
+        "question": "Prostitution is legal to CCP's bureaucrats.(Irony)",
+        "effect": {
+            "econ": 0,
+            "nati": 0,
+            "govt": 10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Women shouldn't work",
         "effect": {
             "econ": 0,
             "nati": 0,
@@ -442,21 +442,21 @@ questions = [
         }
     },
     {
-        "question": "To chase progress at all costs is dangerous.",
+        "question": "Bring Back Tang Dynasty's honor.",
+        "effect": {
+            "econ": 0,
+            "nati": 10,
+            "govt": 0,
+            "scty": -5
+        }
+    },
+    {
+        "question": "We should bring back Zhou Diyasty's feudalism and hierarches.",
         "effect": {
             "econ": 0,
             "nati": 0,
             "govt": 0,
             "scty": -10
-        }
-    },
-    {
-        "question": "Genetic modification is a force for good, even on humans.",
-        "effect": {
-            "econ": 0,
-            "nati": 0,
-            "govt": 0,
-            "scty": 10
         }
     },
     {
@@ -469,10 +469,10 @@ questions = [
         }
     },
     {
-        "question": "Governments should be as concerned about foreigners as they are about their own citizens.",
+        "question": "We shouldn't discriminate Japanese and Americans",
         "effect": {
             "econ": 0,
-            "nati": 10,
+            "nati": 5,
             "govt": 0,
             "scty": 0
         }
@@ -481,18 +481,18 @@ questions = [
         "question": "All people - regardless of factors like culture or sexuality - should be treated equally.",
         "effect": {
             "econ": 10,
-            "nati": 10,
-            "govt": 10,
-            "scty": 10
+            "nati": 5,
+            "govt": 5,
+            "scty": 5
         }
     },
     {
-        "question": "It is important that we further my group's goals above all others.",
+        "question": "It is important that we further CCP's goals above all others.",
         "effect": {
-            "econ": -10,
-            "nati": -10,
+            "econ": -5,
+            "nati": -5,
             "govt": -10,
-            "scty": -10
+            "scty": -5
         }
     }
 ];
