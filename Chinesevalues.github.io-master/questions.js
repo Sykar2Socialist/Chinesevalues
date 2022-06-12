@@ -343,6 +343,15 @@ questions = [
         }
     },
     {
+        "question": "I want to be a femboy, ex. Feng Xiaoyi.",
+        "effect": {
+            "econ": 0,
+            "nati": 0,
+            "govt": 0,
+            "scty": 10
+        }
+    },
+    {
         "question": "People shouldn't have education, only nobility.",
         "effect": {
             "econ": -5,
