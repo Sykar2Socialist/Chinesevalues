@@ -433,12 +433,30 @@ questions = [
         }
     },
     {
-        "question": "If we accept migrants at all, it is important that they assimilate into our culture.",
+        "question": "I write what I said. ",
         "effect": {
             "econ": 0,
             "nati": 0,
+            "govt": 0,
+            "scty": 10
+        }
+    },
+    {
+        "question": "If we accept migrants at all, it is important that they assimilate into our culture.",
+        "effect": {
+            "econ": 0,
+            "nati": -10,
             "govt": -5,
-            "scty": -10
+            "scty": 0
+        }
+    }, 
+    {
+        "question": "Anime cute girls are tools of sexualizing women.",
+        "effect": {
+            "econ": 0,
+            "nati": 0,
+            "govt": 0,
+            "scty": 10
         }
     },
     {
@@ -469,7 +487,16 @@ questions = [
         }
     },
     {
-        "question": "Women shouldn't work",
+        "question": "Women shouldn't work, they should stay in house",
+        "effect": {
+            "econ": 0,
+            "nati": 0,
+            "govt": 0,
+            "scty": -10
+        }
+    },
+    {
+        "question": "Force Women to wrap their feet",
         "effect": {
             "econ": 0,
             "nati": 0,
@@ -500,7 +527,7 @@ questions = [
         "effect": {
             "econ": 0,
             "nati": 10,
-            "govt": 10,
+            "govt": 0,
             "scty": 0
         }
     },
@@ -526,7 +553,7 @@ questions = [
         "question": "It is important that we further CCP's goals above all others.",
         "effect": {
             "econ": -5,
-            "nati": -5,
+            "nati": -10,
             "govt": -10,
             "scty": -5
         }
