@@ -18,6 +18,15 @@ ideologies = [
         }
     },
     {
+        "name": "Xi Jinping Socialism",
+        "stats": {
+            "econ": 40,
+            "nati": 20,
+            "govt": 10,
+            "scty": 30
+        }
+    },
+    {
         "name": "Tridemism",
         "stats": {
             "econ": 70,
