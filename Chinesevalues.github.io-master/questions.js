@@ -224,7 +224,15 @@ questions = [
             "scty": 0
         }
     },
-    
+    {
+        "question": "Han nation is cringe, should weakened.",
+        "effect": {
+            "econ": 0,
+            "nati": -10,
+            "govt": 0,
+            "scty": 0
+        }
+    },
     {
         "question": "Han nation's values should be spread as much as possible.",
         "effect": {
@@ -259,6 +267,24 @@ questions = [
             "nati": 0,
             "govt": 10,
             "scty": 0
+        }
+    },
+    {
+        "question": "Why? It's my duty.",
+        "effect": {
+            "econ": 0,
+            "nati": 0,
+            "govt": 10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Always Follow Chairman Mao's road.",
+        "effect": {
+            "econ": 10,
+            "nati": 0,
+            "govt": -10,
+            "scty": 10
         }
     },
     {
@@ -376,6 +402,24 @@ questions = [
             "nati": 0,
             "govt": 5,
             "scty": -10
+        }
+    },
+    {
+        "question": "Burn Down Temples.",
+        "effect": {
+            "econ": 0,
+            "nati": 0,
+            "govt": 5,
+            "scty": 10
+        }
+    },
+    {
+        "question": "Number 1 Scum is Confucious.",
+        "effect": {
+            "econ": 10,
+            "nati": 0,
+            "govt": 0,
+            "scty": 10
         }
     },
     {
